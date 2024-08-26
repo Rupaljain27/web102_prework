@@ -1,8 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Cabin:wght@400;500;600;700&display=swap');
 
 body {
-    font-family: 'Cabin';
-    background-color: #758190;
+    /* font-family: 'Cabin'; */
+    background-color: #d3e1f2;
 }
 
 #tentacles {
@@ -11,7 +11,7 @@ body {
 
 .header {
     display: flex;
-    background-color: lightblue;
+    background-color: rgb(131, 203, 226);
     padding: 1%;
     align-items: center;
     margin-left: -10px;
@@ -21,6 +21,10 @@ body {
 
 .stats-container {
     display: flex;
+    align-items: center;
+    /* cursor: pointer; */
+    box-shadow: 0 0 30px rgb(74, 186, 224);
+    align-items: stretch;
 }
 
 .stats-card {
@@ -30,10 +34,11 @@ body {
     margin: 1%;
     width: 100%;
     text-align: center;
+    font-size: 15px;
 }
 
 #num-contributions, #total-raised, #num-games {
-    font-size: 50px;
+    font-size: 20px;
 }
 
 #games-container {
@@ -59,7 +64,7 @@ body {
 
 .game-card:hover {
     cursor: pointer;
-    box-shadow: 0 0 30px lightblue;
+    box-shadow: 0 0 30px rgb(128, 197, 220);
 }
 
 #button-container {
@@ -72,4 +77,6 @@ button {
     padding: 1%;
     margin: 1%;
     border-radius: 7px;
+    background-color: rgb(74, 186, 224);
+    cursor: pointer;
 }
